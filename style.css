@@ -1,0 +1,43 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #0e0e0e;
+  color: #fff;
+}
+header {
+  background: #111;
+  padding: 1em;
+  text-align: center;
+}
+nav a {
+  color: #0af;
+  margin: 0 1em;
+  text-decoration: none;
+}
+.trading-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2em;
+}
+.instructions {
+  max-width: 400px;
+}
+.instructions ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.instructions li {
+  margin-bottom: 1em;
+  font-size: 1.1em;
+}
+.phone-preview {
+  max-width: 300px;
+}
+.phone-image {
+  width: 100%;
+  border: 8px solid #333;
+  border-radius: 20px;
+}
